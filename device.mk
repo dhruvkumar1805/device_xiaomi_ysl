@@ -203,6 +203,10 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # GPS
 PRODUCT_PACKAGES += \
     libwifi-hal-ctrl
