@@ -169,6 +169,7 @@ media.msm8956hw=0 \
 media.stagefright.audio.sink=280 \
 vendor.mm.enable.qcom_parser=1048575 \
 mm.enable.smoothstreaming=true \
+mm.enable.sec.smoothstreaming=true \
 mmp.enable.3g2=true \
 vendor.audio.hw.aac.encoder=true \
 vendor.vidc.debug.level=0 \
