@@ -12,7 +12,7 @@ include device/xiaomi/msm8953-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/ysl
 
 # Display
-TARGET_SCREEN_DENSITY := 320
+TARGET_SCREEN_DENSITY := 288
 
 # Kernel
 #TARGET_KERNEL_CONFIG := ysl_defconfig
