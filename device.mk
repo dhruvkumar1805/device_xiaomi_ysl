@@ -295,6 +295,8 @@ PRODUCT_PACKAGES += \
     libmm-omxcore \
     libOmxAacEnc \
     libOmxAmrEnc \
+    libavservices_minijail \
+    libavservices_minijail.vendor \
     libOmxCore \
     libOmxEvrcEnc \
     libOmxG711Enc \
