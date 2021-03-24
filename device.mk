@@ -304,6 +304,9 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
