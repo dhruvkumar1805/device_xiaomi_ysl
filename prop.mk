@@ -289,3 +289,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ro.iorapd.enable=true \
 iorapd.perfetto.enable=true \
 iorapd.readahead.enable=true
+
+# LMKD
+PRODUCT_PRODUCT_PROPERTIES += \
+ro.lmk.critical_upgrade=true \
+ro.lmk.upgrade_pressure=40 \
+ro.lmk.downgrade_pressure=60 \
+ro.lmk.thrashing_limit=30 \
+ro.lmk.thrashing_limit_decay=50
