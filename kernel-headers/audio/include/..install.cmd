@@ -1,1 +1,0 @@
-cmd_usr/include/audio/include/.install := /bin/sh ../scripts/headers_install.sh ./usr/include/audio/include ../techpack/audio/include ; /bin/sh ../scripts/headers_install.sh ./usr/include/audio/include ./techpack/audio/include ; for F in ; do echo "$(pound)include <asm-generic/$$F>" > ./usr/include/audio/include/$$F; done; touch usr/include/audio/include/.install

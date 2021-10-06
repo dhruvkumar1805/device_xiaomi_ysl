@@ -1,1 +1,0 @@
-cmd_usr/include/stub/include/.install := /bin/sh ../scripts/headers_install.sh ./usr/include/stub/include ../techpack/stub/include ; /bin/sh ../scripts/headers_install.sh ./usr/include/stub/include ./techpack/stub/include ; for F in ; do echo "$(pound)include <asm-generic/$$F>" > ./usr/include/stub/include/$$F; done; touch usr/include/stub/include/.install

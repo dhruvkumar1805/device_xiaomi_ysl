@@ -1,1 +1,0 @@
-cmd_usr/include/audio/ipc/.install := /bin/sh ../scripts/headers_install.sh ./usr/include/audio/ipc ../techpack/audio/ipc ; /bin/sh ../scripts/headers_install.sh ./usr/include/audio/ipc ./techpack/audio/ipc ; for F in ; do echo "$(pound)include <asm-generic/$$F>" > ./usr/include/audio/ipc/$$F; done; touch usr/include/audio/ipc/.install
